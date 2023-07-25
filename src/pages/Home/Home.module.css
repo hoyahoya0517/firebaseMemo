@@ -1,0 +1,40 @@
+.home {
+  width: auto;
+  min-height: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: rgba(44, 44, 44, 0.432);
+  overflow: auto;
+}
+.loading {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: black;
+}
+.loading img {
+  position: absolute;
+  top: 80%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+.loading img {
+  width: 33%;
+}
+.homeVideo {
+  position: fixed;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 150%;
+  min-height: 100%;
+  z-index: -9999;
+}
+.memoWrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  height: 100%;
+}

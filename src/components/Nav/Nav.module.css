@@ -1,0 +1,25 @@
+.nav {
+  position: fixed;
+}
+.icon {
+  position: fixed;
+  bottom: 2%;
+  left: 2%;
+  cursor: pointer;
+  z-index: 3333;
+}
+
+.memoComponent {
+  /* position: fixed; */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  height: 100vh;
+  width: 100vw;
+  z-index: 4444;
+}
+.memoHidden {
+  position: fixed;
+  transform: translateX(-300%);
+  z-index: -9999;
+}

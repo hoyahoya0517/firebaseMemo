@@ -1,0 +1,43 @@
+.memo {
+  height: 300px;
+  flex-basis: 25%;
+  overflow: hidden;
+}
+.memoRadius {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  word-break: break-all;
+  word-wrap: normal;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border-radius: 10px; */
+  gap: 10px;
+}
+.title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  flex-basis: 7%;
+  cursor: pointer;
+}
+.detail {
+  overflow: auto;
+  flex-basis: 90%;
+  cursor: pointer;
+}
+.detail::-webkit-scrollbar {
+  width: 5px; /* 스크롤바의 너비 */
+}
+.detail::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: rgb(170, 170, 170); /* 스크롤바의 색상 */
+  border-radius: 10px;
+}
+.detail::-webkit-scrollbar-track {
+  background: rgba(245, 245, 245, 0); /*스크롤바 뒷 배경 색상*/
+}
+.date {
+  flex-shrink: 0;
+  flex-basis: 3%;
+  font-size: 0.8rem;
+}

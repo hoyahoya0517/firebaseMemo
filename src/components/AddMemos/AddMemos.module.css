@@ -1,0 +1,95 @@
+.addMemoWrap {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(1, 1, 1, 0.852);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addMemo {
+  width: 50vw;
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /* border-radius: 0.8rem; */
+}
+.x {
+  display: flex;
+  justify-content: flex-end;
+  flex-basis: 3%;
+}
+.x_icon {
+  cursor: pointer;
+}
+.main {
+  flex-basis: 90%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main_input {
+  flex-basis: 12%;
+  border-bottom: 1px solid black;
+  padding: 1rem;
+}
+.main_input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.25;
+}
+.main_input input:focus {
+  outline: none;
+}
+.main_area {
+  flex-basis: 88%;
+  padding: 1rem;
+}
+.main_area textarea::-webkit-scrollbar {
+  width: 5px; /* 스크롤바의 너비 */
+}
+.main_area textarea::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: rgb(170, 170, 170); /* 스크롤바의 색상 */
+  border-radius: 10px;
+}
+.main_area textarea::-webkit-scrollbar-track {
+  background: rgba(245, 245, 245, 0); /*스크롤바 뒷 배경 색상*/
+}
+.main_area textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  /* border-radius: 2.3rem; */
+  font-size: 1rem;
+  border: none;
+  letter-spacing: 2px;
+  line-height: 1.25;
+}
+.main_area textarea:focus {
+  outline: none;
+}
+.check {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 7%;
+}
+.check_icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+  padding: 0 0 8px 0;
+}
+.check_icon:hover {
+  transform: scale(130%);
+}

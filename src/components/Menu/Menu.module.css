@@ -1,0 +1,50 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  transition: 0.5s;
+  transform: translateX(0%);
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
+  border-right: 1px solid black;
+}
+.hidden {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  transition: 0.5s;
+  transform: translateX(-100%);
+  display: flex;
+  flex-direction: column;
+  padding: 15px 5px;
+  border-right: 1px solid black;
+}
+.select {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 700;
+  align-items: center;
+  padding: 100px 0;
+  gap: 18px;
+}
+.add {
+  cursor: pointer;
+}
+.home {
+  cursor: pointer;
+}
+.x {
+  display: flex;
+  justify-content: flex-end;
+}
+.x_icon {
+  cursor: pointer;
+}

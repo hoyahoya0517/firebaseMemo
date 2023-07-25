@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Poppins&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  width: 100%;
+  height: 100vh;
+  color: #121110;
+  font-family: "NotoSansKR", "Poppins", sans-serif;
+  font-size: 18px;
+  letter-spacing: normal;
+  line-height: 1;
+}
+body::-webkit-scrollbar {
+  width: 8px; /* 스크롤바의 너비 */
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: rgb(170, 170, 170); /* 스크롤바의 색상 */
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: rgba(245, 245, 245, 0.941); /*스크롤바 뒷 배경 색상*/
+}
+a {
+  text-decoration: none;
+}
+#root {
+  height: 100%;
 }
